@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang ="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Northcoders Cheatsheet</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="" async defer></script>
+    </head>
+    <body>
+        <main>
+            <div id="title">
+                <h1>Northcoders Cheatsheet</h1>
+                <!-- <p>Button links:</p> -->
+                <!-- Adding JS section buttons later -->
+            </div>
+            <div id="main_content_holder">
+                <div class="cheatsheet">
+                    <h2>Git & GitHub Command List</h2>
+                    <br>
+                    <h3>Cloning from GitHub:</h3>
+                    <br>
+                    <ol type ="1">
+                        <li>Get SSH/HTTPS/GitHub CLI from code button in GitHub</li>
+                        <li>cd into directory where we want to clone the repo to</li>
+                        <li>ctrl + v to paste link [windows] cmd + v to paste link [mac]</li>
+                        <li>Enter password, complete</li>
+                    </ol>
+                    <br>
+                    <h3>Changing, committing, and pushing files:</h3>
+                    <ol type="1">
+                        <li>git add file.txt < adds to staging area</li>
+                        <li>git add . < adds all files to staging area</li>
+                        <li>git commit -m "Commit message"</li>
+                        <li>git remote < tells us the repo on github we're pushing to</li>
+                        <li>git remote -v < verbose of above</li>
+                        <li>git push origin main < allows us to push to the repo where main is name of branch</li>
+                    </ol>
+                    <br>
+                    <h3>Creating a repo locally then pushing to GitHub:</h3>
+                    <ol type="1">
+                        <li>cd into place we want to create the repo</li>
+                        <li>git init creates an empty repo locally</li>
+                        <li>we do similar steps to the second section above via staging & committing</li>
+                        <li>Go to GitHub and create the repo (making sure not to initialise), collecting the SSH/HTTPS</li>
+                        <li>git remote add origin URL < connects to github repo</li>
+                        <li>git remote < tells us the repo on github we're pushing to</li>
+                        <li>git remove -v < verbose of above</li>
+                        <li>git push origin main < allows us to push the repo [main =/= master]</li>
+                    </ol>
+                    <br>
+                    <h3>Pulling changes from a repo</h3>
+                    <ol type="1">
+                        <li>git pull origin master < any changes made to main is pulled down locally</li>
+                    </ol>
+                </div>
+                <div class="cheatsheet">
+                    <h2>Command Line (CLI)</h2>
+                    <p>Consectetur nulla quis incididunt eu commodo veniam esse mollit nostrud adipisicing. Enim nostrud exercitation quis reprehenderit do sint ea. Nulla commodo eiusmod deserunt in dolore esse tempor consequat enim.
+
+                    Tempor adipisicing minim enim laborum irure amet labore esse voluptate voluptate occaecat amet et ex. Occaecat consectetur cupidatat in est ullamco. Non mollit fugiat ipsum dolore commodo ullamco commodo amet occaecat nisi veniam nulla non elit. Ut incididunt et Lorem anim cupidatat sit non nisi. Lorem ipsum nisi tempor amet aute quis dolor exercitation aute dolor pariatur reprehenderit occaecat. Do nulla qui tempor dolor officia aute proident aliqua.</p>
+                </div>
+                <div class="cheatsheet">
+                    <h2>Regex</h2>
+                    <p>Consectetur nulla quis incididunt eu commodo veniam esse mollit nostrud adipisicing. Enim nostrud exercitation quis reprehenderit do sint ea. Nulla commodo eiusmod deserunt in dolore esse tempor consequat enim.
+
+                    Tempor adipisicing minim enim laborum irure amet labore esse voluptate voluptate occaecat amet et ex. Occaecat consectetur cupidatat in est ullamco. Non mollit fugiat ipsum dolore commodo ullamco commodo amet occaecat nisi veniam nulla non elit. Ut incididunt et Lorem anim cupidatat sit non nisi. Lorem ipsum nisi tempor amet aute quis dolor exercitation aute dolor pariatur reprehenderit occaecat. Do nulla qui tempor dolor officia aute proident aliqua.</p>
+                </div>
+                <div class="cheatsheet">
+                    <h2>Topic</h2>
+                    <p>Consectetur nulla quis incididunt eu commodo veniam esse mollit nostrud adipisicing. Enim nostrud exercitation quis reprehenderit do sint ea. Nulla commodo eiusmod deserunt in dolore esse tempor consequat enim.
+
+                    Tempor adipisicing minim enim laborum irure amet labore esse voluptate voluptate occaecat amet et ex. Occaecat consectetur cupidatat in est ullamco. Non mollit fugiat ipsum dolore commodo ullamco commodo amet occaecat nisi veniam nulla non elit. Ut incididunt et Lorem anim cupidatat sit non nisi. Lorem ipsum nisi tempor amet aute quis dolor exercitation aute dolor pariatur reprehenderit occaecat. Do nulla qui tempor dolor officia aute proident aliqua.</p>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
